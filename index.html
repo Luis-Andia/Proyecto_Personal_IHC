@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Para visualizar en otros dispositivos-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="stylesV1.css" />
+    <link rel="stylesheet" href="Pie.css" />
+
+  </head>
+
+  <body>
+    <nav class="topheader">
+      <a href="" class="Logo">
+        <img src="Imagenes/logo.png" alt="" />
+      </a>
+      <!-- Diseño del Menu horizontal -->
+      <ul class="Menu-Horizontal">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Mis-Proyectos.html">Mis Proyectos</a></li>
+        <!--Para enlazar un subtitulo con otra pantalla-->
+        <li>
+          <a href="">Grupo</a>
+          <!--Antes de finalizar prodc, se crea una lista mas-->
+
+          <ul class="Menu-Vertical-Productos">
+            <li><a href="NuevoGrupo.html">Nuevo Grupo</a></li>
+            <li><a href="Asignar-Proyecto.html">Asignar Proyecto</a></li>
+          </ul>
+        </li>
+        <!--Aqui arriba termina Productos-->
+
+        <li><a href="Ayuda.html">Ayuda</a></li>
+      </ul>
+    </nav>
+    <!--SECION TITULO PRINCIPAL -->
+    <section class="Titulo-Principal">
+      <div class="Titulo-Principal-Texto">
+        <h1>¡Bienvenido a Win or Win - WOW!</h1>
+      </div>
+      <div class="Separador"></div>
+    </section>
+     <!--SECION PRESENTACION PROYECTO -->
+    <section class="Presentacion">
+      <div class="Presentacion-general">
+        <div class="Presentacion-general-texto">
+          <div class="PresentacionTitulo">
+            <h2>¿Qué es WOW?</h2>
+          </div>
+          <div class="Presentacion-texto-info">
+            <p> WOW es más que un sitio web, es una herramienta util para supervisar y brindar un apoyo en los trabajos de investigación o proyectos de
+                los estudiantes universitarios. La aplicación va a funcionar como un medio de control, tanto para los
+                profesores como para los líderes del equipo, del avance o progreso de los integrantes respecto a las
+                partes del trabajo. De esta manera se podrán tomar las medidas pertinentes.
+            </p>
+          </div>
+        </div>
+        <div class="Presentacion-general-imagen">
+          <img src="Imagenes/present-web.jpg">
+        </div>
+
+      </div>
+    </section>
+
+    <!--SECION REGISTRAR UN GRUPO -->
+    <section class="registrar_grupo">
+      <h2>¿Porque es impotante tener un Grupo de estudio?</h2>
+      <div class="div-general-rgrupo">
+        <div class="div-rgrupo-img">
+          <img src="Imagenes/importancia-equipo.jpg" />
+        </div>
+
+        <div class="div-rgrupo-texto">
+          <p>
+            Estos ofrecen numerosos beneficios, como mejorar el rendimiento académico al aclarar dudas y promover la
+            responsabilidad. También fomenta habilidades sociales y de
+            comunicación, aumenta la motivación, permite el aprendizaje
+            colaborativo y amplía los recursos de estudio al compartir
+            diferentes perspectivas y materiales
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--SECION EXP GRUPO DE TRABAJO -->
+    <section class="exp-grupo-trabajo">
+      <h2>Caracteristicas de un Grupo de Trabajo</h2>
+        <div class="div-exp-grupo-trabajo-video">
+          <iframe
+            src="https://www.youtube.com/embed/cJUXxjOeoCk?si=QOSUCGZc1FTgZJou"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
+  
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="Imagenes/logo.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>Win or Win</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="Documentos/Politica-Privacidad.pdf" taget=_blank>Política de Privacidad</a>
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+</html>
+

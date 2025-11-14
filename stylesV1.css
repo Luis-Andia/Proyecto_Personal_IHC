@@ -1,0 +1,167 @@
+/* MENU */
+
+.topheader {
+  color: skyblue;
+  background-color: black;
+  position: fixed;
+  width: 100%; /* Para el ancho */
+  display: flex;
+  align-items: center; /* Items centrados */
+  justify-content: space-between;
+  padding: 0 20px; /* Repasar */
+}
+
+.Menu-Horizontal {
+  list-style: none; /* Los bulets son los puntitos de lista */
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Logo img {
+  max-height: 100px;
+  min-height: 60px;
+  height: 100%;
+  max-width: 240px;
+  min-width: 100px;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px 20px;
+}
+
+.Menu-Horizontal li a:hover {
+  /*Evento cuando se pasa el mouse */
+  color: skyblue;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical-Productos {
+  display: block; /* Para q se despliegue*/
+}
+
+.Menu-Vertical-Productos {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  width: 150px;
+  background-color: black;
+}
+/* SECCION Titulo Principal */
+.Titulo-Principal {
+  padding-top: 100px;
+  background-color: aqua;
+  align-items: center;
+  height: 100%;
+  max-height: 250px;
+}
+
+.Titulo-Principal-Texto {
+  text-align: center;
+  font-size: 28px;
+}
+
+.Titulo-Principal-Texto h1 {
+  color: black;
+  font-weight: bold;
+}
+
+.Separador {
+  background-color: black;
+  height: 15px;
+  max-width: 2000px;
+  width: 100%;
+}
+
+/* SECCION Presentacion */
+.Presentacion-general {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Presentacion-general-texto {
+  width: 100%;
+  max-width: 500px;
+}
+
+.Presentacion-general-imagen img {
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 200px;
+  border: 1px solid black;
+}
+
+/* SECCION CREAR UN GRUPO */
+.registrar_grupo {
+  padding: 1.25rem 1.25rem 1.25rem;
+  background-color: white;
+}
+
+.registrar_grupo h2 {
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 1.25rem;
+}
+
+.div-general-rgrupo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 1.875rem;
+}
+
+.div-rgrupo-texto {
+  flex: 1;
+}
+
+.div-rgrupo-texto p {
+  color: bla;
+  line-height: 1;
+  text-align: justify;
+}
+
+.div-rgrupo-img img {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid black;
+}
+
+.exp-grupo-trabajo {
+  background-color: white;
+  padding: 1px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.exp-grupo-trabajo h2 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.938rem;
+}
+
+.div-exp-grupo-trabajo-video {
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 1.875rem;
+}
+
+.div-exp-grupo-trabajo-video iframe {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 16/9;
+}
