@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Silkscreen:wght@400;700&display=swap');
 /* Contenedor principal: Centra el formulario */
 .login-container {
     display: flex;
@@ -22,6 +23,7 @@
 }
 
 .login-box h2 {
+    font-family: "Silkscreen", sans-serif;
     margin-bottom: 1.5625rem; /* 25px */
     color: #333;
     font-size: 1.8rem;

@@ -1,0 +1,93 @@
+.Proyectos-registrados {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.Titulo {
+  background-color: aqua;
+  height: 100%;
+  max-height: 70px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+}
+
+.Titulo h1 {
+  background-color: aqua;
+  color: black;
+}
+
+.div-proyectos-texto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: left;
+  max-width: 1200px;
+  width: 100%;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.div-Proyecto {
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  background-color:white;
+  max-width: 300px;
+  width: 100%;
+}
+
+.div-Proyecto img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 180px;
+}
+
+.div-Proyecto h3 {
+  max-width: 100%;
+  height: 100%;
+  max-height: 25px;
+}
+
+.Info-cambios-proyectos {
+  background-color:white;
+}
+
+.div-camb-general {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.div-camb-texto {
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  max-width: 500px;
+  background-color: aqua;
+}
+
+.div-camb-imagen {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.div-camb-texto p {
+  justify-content: justify;
+  color: black;
+  font-size: 16px;
+}
+
+.div-camb-imagen img {
+  width: 100%;
+  max-width: 300px;
+}

@@ -1,0 +1,95 @@
+
+.Registrar-grupo{
+    padding-top: 90px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    justify-items: center;
+}
+
+.Nuevo-Grupo{
+    padding-bottom: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 60px;
+  background-color: aqua;
+}
+
+.Titulo h1 {
+  background-color:aqua;
+  color: black;
+}
+
+.Registrar-grupo-general {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    max-width:500px; 
+    width: 100%;
+}
+
+.div-nombre{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Cuadro{
+    border: 1px solid black;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+
+.Cuadro-nombre{
+    border: 1px solid black;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+
+.Tabla-actividades{
+    height: 500px;
+}
+
+.Invitacion-grupo{
+    background-color: black;
+    color: white;
+    padding: 20px 40px 40px 40px; 
+    justify-content: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+.Cuadro-mensaje {
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.Boton {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.Boton-tipo1{
+    background-color:aqua;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 55px;
+    color: black;
+    max-width: 150px;
+    width: 100%;
+    text-align: center;
+}

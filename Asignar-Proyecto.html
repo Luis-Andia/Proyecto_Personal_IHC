@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Para visualizar en otros dispositivos-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles-asingar-proy.css" />
+  </head>
+
+  <body>
+    <nav class="topheader">
+      <a href="" class="Logo">
+        <img src="Imagenes/logo.png" alt="" />
+      </a>
+      <!-- Diseño del Menu horizontal -->
+      <ul class="Menu-Horizontal">
+        <li><a href="landingpage.html">Inicio</a></li>
+        <li><a href="Mis-Proyectos.html">Mis Proyectos</a></li>
+        <!--Para enlazar un subtitulo con otra pantalla-->
+        <li>
+          <a href="">Grupo</a>
+          <!--Antes de finalizar prodc, se crea una lista mas-->
+
+          <ul class="Menu-Vertical-Productos">
+            <li><a href="NuevoGrupo.html">Nuevo Grupo</a></li>
+            <li><a href="Asignar-Proyecto.html">Asignar Proyecto</a></li>
+          </ul>
+        </li>
+        <!--Aqui arriba termina Productos-->
+
+        <li><a href="">Ayuda</a></li>
+      </ul>
+    </nav>
+
+    <!-- Desde aqui empiezan las secciones -->
+    <section class="Espacio-encabezado-general">
+      <div class="Espacio-encabezado"></div>
+    </section>
+
+    <section class="Titulo-asig-general">
+        <div class="Titulo-asig-texto">
+            <h1>¿Cómo asignar un Proyecto a un Grupo?</h1>
+        </div>
+        <div class="Titulo-img">
+            <img src="Imagenes/asig-titulo.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="Lista-pasos-general">
+      <div class="Lista-pasos">
+        <h2>Lista de Pasos</h2>
+        <ol>
+          <li><a href="#Paso1-general"> Crear un Proyecto</a></li>
+          <li><a href="#Paso2-general">Seleccionar un Grupo de Trabajo</a></li>
+          <li><a href="#Paso3-general">Asignar roles</a></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="Paso1-general">
+      <div class="Paso">
+        <div class="Paso-texto">
+          <h2><ins>Crear un Proyecto</ins></h2>
+          <p>Es fundamental crear un proyecto, ya que será este el cual se va a asignar a un grupo. En ese sentido, puedes recurrir a la pestaña de
+            Mis Proyectos para conocer toda la información sobre cómo añadir uno nuevo a tu cuenta.</p>
+        </div>
+
+        <div class="Paso-Imagen">
+          <img src="Imagenes/paso1.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="Paso2-general">
+      <div class="Paso">  
+        <div class="Paso-Imagen">
+          <img src="Imagenes/paso2.png" alt="">
+        </div>
+
+        <div class="Paso-texto">
+          <h2><ins>Seleccionar un Grupo de Trabajo</ins></h2>
+          <p>Al momento de ingresar a la pantalla de Asignar un Grupo, va a visualizar una lista con los Grupos de Trabajo que ya tiene registrado, 
+            independientemente si tiene o no proyectos activos con ellos. En ese sentido, va a tener que elegir uno de ellos mediante un clic. Una vez 
+            lo haya hecho, el grupo elegido se va a sombrear de un color diferente para que este seguro de su decisión</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Paso3-general">
+      <div class="Paso"> 
+        <div class="Paso-texto">
+          <h2><ins>Asignar Roles</ins></h2>
+          <p>De manera opcional va a poder asignar roles a los integrantes de su Grupo de Trabajo dentro del proyecto, tales como coordinador,
+            solamente miembro, vocero, etc. Para ello, va a seleccionar al usuario en la lista y va a desplegar las opciones en la celda de Rol o en su defecto
+            va a poder escribir directamente un rol personalizado para su proyecto</p>
+        </div>
+        <div class="Paso-Imagen">
+          <img src="Imagenes/paso3.png" alt="">
+        </div>
+      </div>
+    </section>
+  </body>
